@@ -7,7 +7,7 @@ public class Day4 {
         int a=10;
         int v=3;
         int c = a+v;
-        int d = (a--)+v;
+        int d = (a--)+v; // here first a+v then 13, a value will be 9.
         System.out.println(c);
         System.out.println(d);
         a = a++;  //a+1
@@ -22,6 +22,7 @@ public class Day4 {
         int b = 1;
         int k = 2;
         System.out.println(b>k);
+        System.out.println(b<k);
 
         //Logical operators ( && , ||, ! )
         int l = 6;
