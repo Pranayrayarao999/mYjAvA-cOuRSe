@@ -20,7 +20,6 @@ public class Day8 {
                 break;
             }
             System.out.print(i+ " ");
-
         }
 
          //continue
