@@ -8,6 +8,6 @@ public class Day13 {
     //CLASS IS A BLUPRINT IN WHICH OBJECT IS GENERATED.
     //PEN IS A CLASS , WE CAN WRITE, CLOSECAP,OPENCAP IS A FUNCTIONALITY , COLOUR,COMPANY IS A PROPERTY
     public static void main(String[] args) {
-
+        
     }
 }
