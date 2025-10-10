@@ -11,7 +11,7 @@ public class Oops extends Inheritence {
     int no;
     String company;
 
-    //constructor is used to create objects , default constructor,parametrized constructor
+    //constructor is used to create objects , 2 types are default constructor,parametrized constructor
     public Oops(String colour, int no, String company) {
         this.colour = colour;
         this.no = no;
@@ -27,6 +27,7 @@ public class Oops extends Inheritence {
         //Oops o = new Oops();
         Oops op = new Oops("Red",1,"Technotip");
         op.right();
+        op.left();
         System.out.println(op.colour +" "+op.company+" "+op.no);
 
         Inheritence i = new Inheritence();
