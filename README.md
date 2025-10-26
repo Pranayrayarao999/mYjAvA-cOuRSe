@@ -1,1 +1,1 @@
-5 hrs 50 min 0 sec
+6 hrs 25 min 54 sec
