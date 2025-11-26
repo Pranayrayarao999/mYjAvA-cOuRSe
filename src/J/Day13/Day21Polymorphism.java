@@ -31,10 +31,31 @@ class MethodOverloading {
 }
 
 //Dynamic Polymorphism or late Binding or  Overriding
+//WHEN YOU OVERRIDE A METHOD FROM PARENT CLASS IT SHOULD BE OF SAME METHODNAME.
 class MethodOverriding {
-
 
     public static void main(String[] args) {
 
+    }
+}
+
+class A {
+    void show1(){
+        System.out.println("THIS IS SHOW METHOD FROM A CLASS");
+    }
+}
+
+class B extends A {
+    void show1(){
+        System.out.println("THIS IS SHOW METHOD FROM B CLASS");
+    }
+    public static void main(String[] args) {
+        B b = new B();
+        b.show1();
+
+        A a = new B();
+        a.show1();
+        A a2 = new A();
+        a2.show1();
     }
 }
